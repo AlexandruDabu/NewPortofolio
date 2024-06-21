@@ -1,4 +1,4 @@
-import {Route, Routes, BrowserRouter} from "react-router-dom";
+import {Route, Routes, BrowserRouter, Navigate} from "react-router-dom";
 import AppLayout from './AppLayout';
 import About from "./NavComponents/About";
 import Resume from "./NavComponents/Resume";
@@ -10,6 +10,7 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="/" element={<Navigate to="/about" />} />
                 <Route path='/' element={<AppLayout/>}>
                 <Route path='/about' element={<About/>}/>
                 <Route path='/resume' element={<Resume/>}/>

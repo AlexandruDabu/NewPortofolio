@@ -8,6 +8,7 @@ dotenv.config(); // Load environment variables from .env file
 export default defineConfig({
   plugins: [react()],
   server: {
+    host:true,
     port: 4001,
   },
   define: {

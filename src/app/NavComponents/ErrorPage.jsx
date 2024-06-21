@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ErrorPage() {
     return (<>
         <div className="errorPageContainer">
@@ -6,6 +8,7 @@ function ErrorPage() {
             </div>
             <div className="errorBitmoji">
                 <img src="../../src/assets/sad.png"/>
+                <button><Link to ='/about'>Go Back</Link></button>
             </div>
         </div>
     </>)
