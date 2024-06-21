@@ -4,7 +4,7 @@ function SideBar() {
         <>
         <div className="headerSideBar">
             <div className='bitmoji'>
-            <img src='../../src/assets/smiling.png' />
+            <img src='/smiling.png' />
             </div>
             <h1>Alexandru Dabuleanu</h1>
             <div className='webDev'><button>Web Developer</button></div>

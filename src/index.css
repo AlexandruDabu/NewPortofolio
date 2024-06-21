@@ -341,7 +341,10 @@ hr{
   transform: scaleX(1);
 }
 /* LIST DECORATION */
-
+.CourseContainer a{
+  text-decoration: none;
+  color:inherit;
+}
 .Content main .resumeContainer hr{
   margin: 2rem 0rem;
 }

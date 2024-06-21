@@ -4,35 +4,35 @@ import LoadingCard from "../Utils/LoadingCard"
 function Projects() {
     const data = [
         {
-            image: '../src/assets/Reactivities.jpg',
+            image: '/Reactivities.jpg',
             body: "A Full-Stack application (React, ASP.NET, PostgreSQL) with authentication features. Users can create, join, and comment on activities, as well as manage their profiles.",
             title: 'Reactivities',
             commingSoon: false,
             link: 'https://reactivitiesdabuleanu.fly.dev/',
         },
         {
-            image: '../src/assets/runGroop.jpg',
+            image: '/runGroop.jpg',
             body: 'A Full-Stack application (React, ASP.NET, PostgreSQL) for managing running clubs and races. Users can authenticate, store club&race details, and participate in events. ',
             title: 'RunGroop',
             commingSoon: false,
             link: 'https://runtoday.azurewebsites.net/',
         },
         {
-            image: '../src/assets/Jamming.jpg',
+            image: '/Jamming.jpg',
             body: 'A Front-End application (React, Spotify API) allowing users to authenticate via Spotify. Manage playlists by creating, deleting, and modifying tracks.',
             title: 'Jamming',
             commingSoon: false,
             link: 'null',
         },
         {
-            image: '../src/assets/reddit.jpg',
+            image: '/reddit.jpg',
             body: 'A Front-End application ( React & Redux, Reddit API ) displaying the latest posts from Reddit. Users can interact with posts using like and dislike buttons, as well as choose different subreddits to explore.',
             title: 'Mini-Reddit',
             commingSoon: false,
             link: 'null',
         },
         {
-            image: '../src/assets/Ecommerce.jpg',
+            image: '/Ecommerce.jpg',
             body: 'Planned as a full-stack application (React & Redux, Express.js, PostgreSQL) with authentication. Users will be able to securely order items from our online marketplace.',
             title: 'E-Commerce',
             commingSoon: true,

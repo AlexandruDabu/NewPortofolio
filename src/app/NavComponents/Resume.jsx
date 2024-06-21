@@ -31,13 +31,13 @@ function Resume() {
                     <h1>Courses</h1>
                     <h4>During my spare time between university courses, I dedicated myself to completing the following online courses:</h4>
                     <ul>
-                        <li><span>Complete JavaScript Course, at CodeAcademy</span></li>
-                        <li><span>Front-End Engineer Course, at CodeAcademy</span></li>
-                        <li><span>Back-End Engineer Course, at CodeAcademy</span></li>
-                        <li><span>Complete Guide with .Net Core and React, at Udemy</span></li>
-                        <li><span>Creating a full-stack Web-App with React, at Udemy</span></li>
-                        <li><span>JavaScript Course from Zero, at Udemy</span></li>
-                        <li><span>C# Algorithms & Deubgging in C#, at Linkedin</span></li>
+                        <a target="_blank" href='https://www.codecademy.com/resources/docs/javascript'><li><span>Complete JavaScript Course, at CodeAcademy</span></li></a>
+                        <a target="_blank" href='https://www.codecademy.com/career-journey/front-end-engineer'><li><span>Front-End Engineer Course, at CodeAcademy</span></li></a>
+                        <a target="_blank" href='https://www.codecademy.com/learn/paths/back-end-engineer-career-path'><li><span>Back-End Engineer Course, at CodeAcademy</span></li></a>
+                        <a target="_blank" href='https://www.udemy.com/course/complete-guide-to-building-an-app-with-net-core-and-react/?couponCode=KEEPLEARNING'><li><span>Complete Guide with .Net Core and React, at Udemy</span></li></a>
+                        <a target="_blank" href='https://www.udemy.com/course/full-stack-crash-course/?couponCode=KEEPLEARNING'><li><span>Creating a full-stack Web-App with React, at Udemy</span></li></a>
+                        <a target="_blank" href='https://www.udemy.com/course/the-complete-javascript-course/?couponCode=KEEPLEARNING'><li><span>JavaScript Course from Zero, at Udemy</span></li></a>
+                        <a target="_blank" href='https://www.linkedin.com/learning/c-sharp-algorithms/improve-your-c-sharp-applications-with-efficient-algorithms'><li><span>C# Algorithms & Deubgging in C#, at Linkedin</span></li></a>
                     </ul>
             </div> 
             <hr/>
